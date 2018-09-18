@@ -46,6 +46,10 @@ Not really linear, its a log graph, at especially low force measurements it quic
  
 **a. Include your accelerometer read-out code in your write-up.**
 
+Values on the left were already normalized for LED
+
+![Image of accelerometer_readings](https://github.com/mviejo33/IDD-Fa18-Lab3/blob/master/accel_readings.PNG)
+
 ### 3. IR Proximity Sensor
 
 **a. Describe the voltage change over the sensing range of the sensor. A sketch of voltage vs. distance would work also. Does it match up with what you expect from the datasheet?**
@@ -86,10 +90,16 @@ Consume the whole byte and then move the address to the next byte and then save 
 
 **Upload your modified code that takes in analog values from your sensors and prints them back out to the Arduino Serial Monitor.**
 
+[Code](https://github.com/mviejo33/IDD-Fa18-Lab3/blob/master/accel_proximity_I2C.ino)
+
 ### 2. Design your logger
- 
-**a. Insert here a copy of your final state diagram.**
+
+![PDF_diagram](https://github.com/mviejo33/IDD-Fa18-Lab3/blob/master/diagram_lab3.pdf)
 
 ### 3. Create your data logger!
  
 **a. Record and upload a short demo video of your logger in action.**
+
+Step counter
+
+https://www.youtube.com/watch?v=8EVRrnQS09k
